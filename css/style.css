@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html,body {
+  background: #eee;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.baner {
+  position: absolute;
+  top: 55%;
+  width: 90%;
+  left: 5%;
+  height: 40%;
+  background: rgba(230, 230, 230, 0.6);
+  padding: 3%;
+}
+
+.baner p {
+  font-size: 27px;
+  opacity: 1 !important;
+  padding: 5%;
+  padding-top: 0;
+}
+.payment {
+  font-weight: 600;
+  color: green;
+}
+.panel {
+  font-size: 20px;
+  position: relative;
+  bottom: 0;
+  padding: 10%;
+  min-height: 100px;
+  background-color: #007BFF;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+.panel p {
+  padding-left: 11%;
+  margin-top: 2%;
+}
+.my-list ul{
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 7%;
+  padding-bottom: 3%;
+}
+
+.foto img {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  z-index: -1;
+}
+
+.my-input {
+  margin-top: 35px !important;
+}
+.form-check-input {
+  height: 30px;
+  width: 30px;
+}
+.foto2 {
+  background-color: green;
+  color: #ddd;
+  margin-top: 15px;
+}
+.foto2 p {
+  padding-left: 3%;
+  padding-bottom: 2%;
+}
+.bonus {
+  font-size: 28px;
+  font-weight: bold;
+  padding: 4%;
+  padding-bottom: 2%;
+}
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+form.contact {
+  display: block;
+  background: green;
+  width: 100%;
+  padding: 10%;
+  padding-bottom: 10%;
+  padding-top: 15%;
+  height: 100%;
+}
+button {
+  margin-top: 15%;
+}
+.my-label {
+  color: #fff;
+}
+.my-checkbox-label {
+  color: #fff;
+  padding-left: 10%;
+  padding-top: 1%;
+}
+
+.my-panel a {
+  text-decoration: none;
+}
+.job-paragraf {
+  color: #0054A3;
+  font-weight: 600;
+}
+.price {
+  font-size: 35px;
+  font-weight: 900;
+}
+input:focus::-webkit-input-placeholder
+{
+    color: transparent;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .baner p {
+    height: 50px;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 4%;
+  }
+  .my-list ul {
+    font-size: 17px;
+    position: relative;
+  }
+  .contact label {
+    display: none;
+  }
+  .my-checkbox label {
+    display: block;
+    padding-left: 20px;
+  }
+  .panel {
+    font-size: 17px;
+  }
+  .payment {
+    font-size: 17px;
+    color: #000;
+  }
+  .foto2 {
+    margin-top: 0;
+    color: #A5B5B8;
+    background-color: #000;
+  }
+  .foto2 p {
+    padding-left: 7%;
+    padding-right: 5%;
+  }
+  .my-list ul {
+    padding-bottom: 5%;
+    padding-left: 8%;
+    padding-right: 2%;
+    margin: 0;
+    font-weight: lighter;
+  }
+  .my-list ul li {
+    margin-top: 10px;
+  }
+  .mobile {
+    display: none;
+  }
+  .panel p {
+    padding-top: 5%;
+    font-size: 15px;
+  }
+  .job-paragraf {
+    display: none;
+  }
+  form.contact {
+    padding-top: 10%;
+  }
+  button {
+    margin-top: 8%;
+  }
+  .bonus {
+    background-color: #007BFF;
+    color: #fff;
+  }
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+  }
+}
